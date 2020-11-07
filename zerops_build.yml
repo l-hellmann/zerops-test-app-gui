@@ -5,6 +5,5 @@ run:
   - yarn
   - yarn build:all
 # which files / folders to deploy after build
-deploy: [ dist, package.json ]
+deploy: [ dist, node_modules, package.json ]
 temporaryShutdown: true
-#######
